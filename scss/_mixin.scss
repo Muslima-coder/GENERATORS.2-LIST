@@ -1,0 +1,5 @@
+@mixin Mainstyles ($display, $justify, $gap) {
+    display: $display;
+    justify-content: $justify;
+    gap: $gap;
+}

@@ -1,0 +1,152 @@
+// Hero Part
+.Hero{
+    width: 1440px;
+    height: 566px;
+    background-image: url(../../images/hero-background-png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .Hero-firs-text{
+        font-family: Helvetica Neue;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #FFFFFFCC;        
+        margin-left: 110px;
+    }
+    .Hero__title__wrapper{
+        width: 582px;
+         height: 260px;
+        padding: 140px 0 250px 165px;
+     }
+     .Hero__title{
+        font-family: Helvetica Neue;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+       color: var(--clr-white);     
+       margin-bottom: 16px;   
+     }
+     .Hero-text{
+        width: 450px;
+        font-family: Helvetica Neue;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color:  #FFFFFFCC; 
+        margin-bottom: 32px;
+     }
+     .Hero__contact__btn{
+        width: 196px;
+        height: 52px;
+        border-radius: 8px;    
+        border: none;    
+        background-color: var(--clr-headerLink);
+        transition: all 0.3s;
+     }
+     .Hero__contact__btn-span{
+        font-family: Helvetica Neue;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 158%;
+        letter-spacing: 0.75%;
+        text-align: center;
+        vertical-align: middle;
+        color: var(--clr-white);        
+       align-items: center;
+     }
+     .Hero__contact__btn:hover{
+        width: 203px;
+        height: 57px;
+        border-radius: 6px;
+        background-color: skyblue;
+     }
+    .Phone__img{
+       position: relative ;
+       left: 1286px;
+        top: 85px;
+    }
+}
+
+ //  Numbers 
+ .Numbers{
+    @include  Mainstyles (flex, space-between, 0);
+    margin: 0 auto;
+    width: 1200px;
+    flex-wrap: wrap;
+   
+    .Numbers__content{
+        @include  Mainstyles (flex, space-between, 0);
+        margin: 0 auto;
+        align-items: center;
+        margin-top: 67px;
+        margin-bottom: 51px;
+    }
+    .Numbers__title{
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: var(--clr-headerText);        
+      text-align: center;
+    }
+    .Numbers__list{
+        @include  Mainstyles (flex, space-between, 55px);
+    }
+    .Numbers__item{
+        width: 338px;
+        height: 169px;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .Numbers__number{
+        
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: var(  --clr-headerLink);   
+    }
+    .Numbers__text{
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: var(--clr-headerText);
+        opacity: 80%;        
+        margin-top: 19px;     
+    }
+}
+// Documents
+.Documents{
+    margin: 0 auto;
+    width: 1200px;
+
+
+    .Documents__contents{
+        align-items: center;
+        text-align: center;
+        margin-top: 99px;
+    }
+    .Documents__title{
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: var(--clr-headerText);   
+        margin-bottom: 42px;     
+    }
+    .Documents__image{
+        margin:  0 auto;
+        position: relative;
+        right: 90px;
+    }
+}
